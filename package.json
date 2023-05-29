@@ -1,0 +1,17 @@
+{
+	"private": true,
+	"scripts": {
+		"build": "preact build",
+		"serve:prod": "sirv build -p 3000 --cors --single",
+		"serve:dev": "preact watch -p 3000"
+	},
+	"devDependencies": {
+		"preact-cli": "^3.4.2",
+		"sirv-cli": "^2.0.2"
+	},
+	"dependencies": {
+		"preact": "^10.11.3",
+		"preact-render-to-string": "^5.2.6",
+		"preact-router": "^3.2.1"
+	}
+}
